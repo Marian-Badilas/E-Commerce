@@ -1,15 +1,13 @@
 body{
     background-color: rgb(247, 247, 247);
-    height: 2000px;
+    height: 1700px;
 }
 
 
 .container{
-    margin-top: 80px;
+    margin-top: 70px;
     display: flex;
-    justify-content: center;
-   
-   
+    justify-content: center; 
 }
 
 .banner{
