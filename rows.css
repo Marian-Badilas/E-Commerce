@@ -5,7 +5,7 @@
     display: grid ;
     grid-template-columns: 275px 275px 275px 275px;
     background-color: white;
-    padding-bottom: 20px;
+    padding-bottom: 150px;
     box-shadow: 0px 0px 2px 2px rgb(223, 223, 223);
 }
 
@@ -55,6 +55,39 @@ p {
     padding-bottom: 10px;
 }
 
+.page-changer {
+    height: 30px;
+    width: 120px;
+   border: 1px solid rgb(216, 216, 216);
+   box-shadow: 0px 0px 10px 10px rgb(246, 246, 246);
+    position: absolute;
+    bottom: 70px;
+    left: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-changer button {
+    height: 30px;
+    width: 30px;
+    border-style:none ;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.button-1 {
+    background-color: blueviolet;
+    color: white;
+}
+
+.button-1:hover {
+ cursor: pointer;
+}
 
 
-
+.button-2:hover {
+ cursor: pointer;
+ color: white;
+ background-color: grey;
+}
